@@ -16,3 +16,19 @@ function sayHello(person: string)
 let user = "Michel";
 console.log(sayHello(user));
 console.log();
+
+
+// Test the var and let
+
+let foo = "Foo";
+
+{
+  var bar = "Bar";     // var is global
+  let baz = "Bazz";    // let is local
+  console.log("{");
+  console.log("  " + baz);
+  console.log("{");
+}
+console.log(foo);      // Foo
+console.log(bar);      // Bar
+// console.log(baz);   // Uncomment and error here
