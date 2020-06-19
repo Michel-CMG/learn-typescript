@@ -1,7 +1,7 @@
 // deno test TestTestCode.ts
 
 import { assertEquals } from "https://deno.land/std@0.56.0/testing/asserts.ts";
-import { add, addAsync } from "./TestTestModel.ts";
+import { add, addAsync } from "./TestClass.ts";
 
 const { test } = Deno;
 

@@ -1,17 +1,10 @@
-// So, now javascript and typescript has Class
-
-class Animal
+export function add (x: number, y: number): number
 {
-    public name : string;
-    constructor(name : string)
-    {
-        this.name = name;
-    }
-    sayHello()
-    {
-        return "My name is " + this.name;
-    }
+  return x + y;
 }
 
-let jack = new Animal("Jack");
-console.log(jack.sayHello());
+export async function addAsync (x: number, y: number): Promise<number>
+{
+  await new Promise(res => setTimeout(res, 100));
+  return x + y;
+}
