@@ -9,5 +9,5 @@ Use deno to learn the typescript. I think deno is much more simple than node.js 
   - deno run .ts files and deno test .ts files
   - Happy!
 
-This is also for everyday commit and everyday habit building.
-The idea is from Stephen Guise's book Mini Habits. Recommend to search the idea or just read the book.
+This is also for everyday commit and everyday habit building.<br>
+The idea is from Stephen Guise's book **Mini Habits**. Recommend to search the idea or just read the book.
