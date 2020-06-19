@@ -1,7 +1,7 @@
-#!/usr/bin/env deno test --allow-all test.ts
+// deno test TestTestCode.ts
 
 import { assertEquals } from "https://deno.land/std@0.56.0/testing/asserts.ts";
-import { add, addAsync } from "./mod.ts";
+import { add, addAsync } from "./TestTestModel.ts";
 
 const { test } = Deno;
 
