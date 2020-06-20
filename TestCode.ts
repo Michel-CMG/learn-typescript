@@ -3,14 +3,14 @@
 import { assertEquals } from "https://deno.land/std@0.56.0/testing/asserts.ts";
 import { add, addAsync } from "./TestClass.ts";
 
-const { test } = Deno;
-
-test('example', function() {
+Deno.test("TestAdd", function()
+{
   const result = add(1, 2);
   assertEquals(result, 3);
 });
 
-test('exampleAsync', async function() {
+Deno.test("TestAddAsync", async function()
+{
   const result = await addAsync(1, 2);
   assertEquals(result, 3);
 });
